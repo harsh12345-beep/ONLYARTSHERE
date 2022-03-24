@@ -30,7 +30,7 @@ ALLOWED_HOSTS = ['arts.herokuapp.com']
 
 # Application definition
 
-INSTALLED_APPS = [
+INSTALLED_APPS = [ 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'imagegallery.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd3kdnfjqedsn01',
-        'USER':'uvdbnitzbhzsow',
-        'PASSWORD':'55919ca4f1b113ee889fbf09ee32bfa50bb57886d90ba434539d37ff6316f099',
-        'HOST': 'ec2-3-229-161-70.compute-1.amazonaws.com',
+        'NAME': 'dbgkqc5f1ip3r5',
+        'USER':'gickffnqgfixlp',
+        'PASSWORD':'d8e5dc0b8da7dc11ead342d0d4ee4f6ef677aae50dbb92d2e5c2a7eba77b78b1',
+        'HOST': 'ec2-54-173-77-184.compute-1.amazonaws.com',
         'PORT':'5432'
     }
 }
